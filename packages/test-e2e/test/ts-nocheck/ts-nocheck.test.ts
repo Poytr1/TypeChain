@@ -28,7 +28,7 @@ async function codegen({ tsNocheck }: { tsNocheck: boolean }) {
 
   // @todo consider virtual filesystem
   await runTypeChain({
-    target: 'ethers-v5',
+    target: '/Users/poytr1/workspace/TypeChain/packages/target-ethers-sentio',
     cwd: __dirname,
     filesToProcess: files,
     allFiles: files,
